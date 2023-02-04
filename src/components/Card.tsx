@@ -12,7 +12,7 @@ const Card: React.FC<cardProps> = ({ name, description, url, imageUrl }) => {
     <>
       <a href={url} target="_blank">
         <div className="h-[22rem] text-white border border-gray-500 rounded-md cursor-pointer relative">
-          <img src={`/src/assets/images/${imageUrl}.png`} alt="" className="h-[21.9rem] rounded-md object-cover" />
+          <img src={`/images/${imageUrl}.png`} alt="" className="h-[21.9rem] rounded-md object-cover" />
           <div className="absolute h-full w-full bg-[#383838]/70 opacity-0 hover:opacity-95 rounded-md transition-all top-0 z-1 duration-300">
             <div className="h-full w-full flex items-center justify-center">
               <div className="text-center">
